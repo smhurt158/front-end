@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
 import { Routes, Route } from 'react-router-dom';
 import Layout from "./components/Layout";
 import Home from "./pages/Home";

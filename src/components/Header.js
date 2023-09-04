@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import { useState } from 'react';
 
 const Header = () => {
     

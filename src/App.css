@@ -26,15 +26,10 @@ img {
 }
 
 li {
-  padding: 14px;
-  transition: all linear 0.3s;
+  transition: all linear 0.1s;
 }
 
-li:hover {
-  background: gray;
-  cursor: pointer;
-  color: #fff;
-}
+
 
 .dropdown-menu {
   background: #fff;
