@@ -5,7 +5,10 @@
   display: flex;
   align-items: center;
 }
-
+body{
+  background-color: rgba(12, 61, 61, 0.911);
+  margin:0px;
+}
 .gallery {
   display: flex;
   flex-direction: column;
@@ -29,7 +32,8 @@ li {
   transition: all linear 0.1s;
 }
 
-
+.App{
+}
 
 .dropdown-menu {
   background: #fff;

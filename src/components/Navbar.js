@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <ul className="menus">
             <li>
-                <MenuItem title="Home" link="home">
+                <MenuItem title="Home" link={process.env.PUBLIC_URL + "/home"}>
 
                 </MenuItem>
             </li>
             <li>
-                <MenuItem title="Gallery" link="gallery">
+                <MenuItem title="Gallery" link={process.env.PUBLIC_URL + "/gallery"}>
 
                 </MenuItem>
             </li>

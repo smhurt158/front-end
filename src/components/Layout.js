@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <div className="content">
+      <div className="content" style={{paddingTop:"100px"}}>
         <Outlet />
       </div>
     </div>
